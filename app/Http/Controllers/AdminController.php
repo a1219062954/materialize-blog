@@ -6,7 +6,7 @@ use App\Http\Requests\SettingRequests\AuthRequest;
 use App\Http\Requests\SettingRequests\LinkRequest;
 use App\Http\Requests\SettingRequests\ProfileRequest;
 use App\Http\Requests\SettingRequests\ViewRequest;
-use App\Models\Post;
+use App\Models\Post;    //模型加载
 use App\Models\Comment;
 use App\Repositories\AdminRepository;
 use Illuminate\Contracts\Auth\Guard;
@@ -41,7 +41,7 @@ class AdminController extends Controller
     public function index()
     {
         $postsCount = Post::count();
-        $commentsCount = Comment::whereSeen(0)->count();
+        $commentsCount = Comment::whereSeen(0)->count();  //未看见
         return view('back.index', compact('postsCount', 'commentsCount'));
     }
 

@@ -17,10 +17,10 @@
             <table class="bordered striped">
                 <thead>
                 <tr>
-                    <th>Title</th>
-                    <th>Date</th>
-                    <th>Publish</th>
-                    <th>Operation</th>
+                    <th>标题</th>
+                    <th>日期</th>
+                    <th>是否公开</th>
+                    <th>操作</th>
                 </tr>
                 </thead>
                 <tbody>

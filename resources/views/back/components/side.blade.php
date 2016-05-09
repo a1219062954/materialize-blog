@@ -9,8 +9,8 @@
                             class="material-icons right">&#xE315;</i></a>
                 <div class="collapsible-body">
                     <ul>
-                        <li><a href="{!! url('posts/admin') !!}">All</a></li>
-                        <li><a href="{!! url('posts/create') !!}">New</a></li>
+                        <li><a href="{!! url('posts/admin') !!}">所有文章</a></li>
+                        <li><a href="{!! url('posts/create') !!}">详细</a></li>
                         <li><a href="{!! url('posts/file') !!}">From Files</a></li>
                     </ul>
                 </div>
