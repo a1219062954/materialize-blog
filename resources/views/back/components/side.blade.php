@@ -10,16 +10,16 @@
                 <div class="collapsible-body">
                     <ul>
                         <li><a href="{!! url('posts/admin') !!}">所有文章</a></li>
-                        <li><a href="{!! url('posts/create') !!}">详细</a></li>
+                        <li><a href="{!! url('posts/create') !!}">新建</a></li>
                         <li><a href="{!! url('posts/file') !!}">From Files</a></li>
                     </ul>
                 </div>
             </li>
         </ul>
     </li>
-    <li class="bold {!! classActivePath('comments') !!}"><a href="{!! url('/comments') !!}" class="waves-effect">Comments<i class="material-icons left">comment</i></a></li>
+    <li class="bold {!! classActivePath('comments') !!}"><a href="{!! url('/comments') !!}" class="waves-effect">评论<i class="material-icons left">comment</i></a></li>
 {{--    <li class="bold {!! classActivePath('messages') !!}"><a href="{!! url('/messages') !!}" class="waves-effect">Messages<i class="material-icons left">mail</i></a></li>--}}
-    <li class="bold {!! classActivePath('settings') !!}"><a href="{!! url('/settings') !!}" class="waves-effect">Settings<i class="material-icons left">settings</i></a></li>
+    <li class="bold {!! classActivePath('settings') !!}"><a href="{!! url('/settings') !!}" class="waves-effect">设置<i class="material-icons left">settings</i></a></li>
 </ul>
 @if(!(Request::is('posts/create') || Request::is('posts/*/edit')))
 <a href="{!! url('posts/create') !!}" class="btn-floating btn-large waves-effect waves-light blue fixed tooltipped" data-position="left" data-delay="50" data-tooltip="Create"><i

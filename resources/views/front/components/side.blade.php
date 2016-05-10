@@ -3,7 +3,7 @@
 <div class="row">
     <div class="col m12 l12 hide-on-small-and-down">
 
-        <h5>Info</h5>
+        <h5>个人信息</h5>
         <div class="divider"></div>
         <div class="card">
             <div class="card-image">
@@ -36,7 +36,7 @@
         <div class="divider"></div>
         @endif
 
-        <h5>Friend Links</h5>
+        <h5>友情链接</h5>
         <div class="friend-links col m12 l12">
             <ul>
                 @foreach($links::all() as $link)

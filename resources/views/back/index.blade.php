@@ -32,7 +32,7 @@
                         <i class="material-icons medium">comment</i>
                         <div class="right">
                             <div class="number">{!! $commentsCount !!}</div>
-                            <div>心得评论</div>
+                            <div>新的评论</div>
                         </div>
                     </div>
                     <div class="divider"></div>
