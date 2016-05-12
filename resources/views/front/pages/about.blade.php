@@ -8,7 +8,7 @@
     <div class="card">
         <div class="card-content">
             <div class="markdown-body">
-               王二麻子
+                {{-- content --}}
             </div>
         </div>
     </div>
